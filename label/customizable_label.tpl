@@ -5,7 +5,7 @@ Set any of the options in this section from 'false' to 'true' in order to enable
 
 {% set vendor_number = false %}                     {# Display Vendor ID (if available) above Description #}
 {% set show_custom_sku = false %}                   {# Display Custom SKU (if available) above Description #}
-{% set show_manufacturer_sku = false %}             {# Display Manufacturer SKU (if available) above Description #}
+{% set show_manufacturer_sku = true %}             {# Display Manufacturer SKU (if available) above Description #}
 {% set show_upc_code = false %}                     {# Display the UPC code at the top of the receipt (using UPC codes in barcode does not work) #}
 {% set show_date = false %}                         {# Display today's date above description (ddmmyy formatting) #}
 {% set price_with_no_cents = false %}               {# Remove cents from being displayed in price #}
@@ -28,7 +28,7 @@ Set any of the options in this section from 'false' to 'true' in order to enable
 {# Normal Label (2.25x1.25) settings #}
 
 {% set normal_description_font_size = '9pt' %}      {# Default is 9pt #}
-{% set normal_price_font_size = '12pt' %}           {# Default is 12pt #}
+{% set normal_price_font_size = '9pt' %}           {# Default is 9pt #}
 
 {# Use the following if adjustments to the label position are needed. Positive and negative numbers work #}
 
